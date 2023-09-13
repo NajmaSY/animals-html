@@ -10,23 +10,6 @@ h2{
 
 }
 
-ul{
-    padding: 0;
-    color: white;
-
-}
-
-li{
-    display: inline;
-    float: left;
-}
-
-li a{
-    display: block;
-    padding: 8px;
-    background-color: pink;
-}
-
 header{
     border: 1px solid red;
     background-color:white;
@@ -39,37 +22,64 @@ a:hover{
     text-decoration: underline overline;
 }
 
-ul > li{
+ul li a{
     list-style: none;
     color: green;
     font-size: 20px;
 
 }
 
-main{
-    box-sizing: border-box;
-    display: inline-block;
-}
+
     
 
 .row{
-    display: flex;
+    display: block;
+    justify-content: space-between
     width: 100%;
-    box-sizing: border-box;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+.box{
+    display: inline-block;
+    text-align: left;
+    float: left;
+    width: 30%;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px; 
+}
+
+img{
+    width: 100%;
+    
+}
+main{
+    background-color: lightblue;
     
 }
 
-* {
-    box-sizing: border-box;
+main ul{
+    background-color:lightgreen;
+    padding: 20px;
+
 }
 
-.box{
+main ul li{
+    background-color: lightblue;
+    color: white;
+    margin: 5px;
+}
+
+ul h2{
+    color:darkgreen;
+    letter-spacing: 1px;
     padding: 5px;
-    float: left;
-    width: 33.33%;
-    height: auto;
+    margin: 0;
+    text-align: left;
+    
 }
-
 
 
 
