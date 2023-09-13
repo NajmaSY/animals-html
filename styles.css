@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #4BE3B0;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -11,14 +11,14 @@ h2{
 }
 
 header{
-    border: 1px solid red;
-    background-color:white;
+    border: 1px solid #4BE3B0;
+    background-color:#4BE3B0;
     color: black;
     padding: 15px;
 }
 
 a:hover{
-    color: green;
+    color: #4BE3B0;
     text-decoration: underline overline;
 }
 
@@ -34,7 +34,7 @@ ul li a{
 
 .row{
     display: block;
-    justify-content: space-between
+    justify-content: space-between;
     width: 100%;
     text-align: center;
     margin: 0px auto;
@@ -44,7 +44,7 @@ ul li a{
 .box{
     display: inline-block;
     text-align: left;
-    float: left;
+    
     width: 30%;
     height: auto;
     margin: 0px auto;
@@ -56,30 +56,32 @@ img{
     
 }
 main{
-    background-color: lightblue;
+    background-color: l#4BE3B0;
     
 }
 
 main ul{
     background-color:lightgreen;
     padding: 20px;
+    color: #D2F03E;
 
 }
 
 main ul li{
-    background-color: lightblue;
-    color: white;
+    background-color: #D2F03E;
+    color: #4BE3B0;
     margin: 5px;
 }
 
 ul h2{
-    color:darkgreen;
+    color:black;
     letter-spacing: 1px;
     padding: 5px;
     margin: 0;
     text-align: left;
     
 }
+
 
 
 
