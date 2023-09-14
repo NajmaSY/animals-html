@@ -14,7 +14,7 @@
 
 //try confirm()
 //user gives a colour, set a part of your page to that colour
-
+function myQuestions (){
 
 function getName() {
    let username = prompt("What is your name?")
@@ -29,17 +29,17 @@ function askTime() {
 let message = "";
 
 if (time <= 11) {
-    let message = "Good Morning";
+    message = "Good Morning";
 }else if (time <= 17){
-    let message = "Good Afternoon";
+    message = "Good Afternoon";
 }else if (time < 24) {
-    let message = "Good Evening";
+    message = "Good Evening";
 }else{
-    let message = "That is not a time!";
+    message = "That is not a time!";
 
 }
      
-document.write(askTime);
+document.write(message);
 
 }
 
@@ -53,18 +53,21 @@ let B = "Bengal";
 let C = "Siamese";
 
 if (question1 = A) {
-    let fact = "A healthy Persian cat's lifespan can be around 8 to 11 years. ";
+    fact = "A healthy Persian cat's lifespan can be around 8 to 11 years. ";
 }else if (question1 = B){
-    let fact = "They are extremely intelligent, alert, friendly, curious and active";
+    fact = "They are extremely intelligent, alert, friendly, curious and active";
 }else if (question1 = C){
-    let fact = "As one of the most affectionate and social breeds of cat";
+    fact = "As one of the most affectionate and social breeds of cat";
 
 }else {
-    let fact = "Choose one of the three";
+    fact = "Choose one of the three";
+}
+  
+document.write(fact);
+
+}
 }
 
-     
-document.write(randomFact);
 
 
 //     console.log("hey");
