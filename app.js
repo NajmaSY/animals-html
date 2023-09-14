@@ -14,7 +14,7 @@
 
 //try confirm()
 //user gives a colour, set a part of your page to that colour
-function myQuestions (){
+
 
 function getName() {
    let username = prompt("What is your name?")
@@ -22,7 +22,7 @@ function getName() {
 
 }
 
-getName();
+
 
 function askTime() {
     let time = prompt("What is the hour? (0-23)");
@@ -66,7 +66,7 @@ if (question1 = A) {
 document.write(fact);
 
 }
-}
+
 
 
 
