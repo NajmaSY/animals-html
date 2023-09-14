@@ -18,7 +18,7 @@
 
 function getName() {
    let username = prompt("What is your name?")
-   console.log("Hello " + username);
+   document.write("Hello " + username);
 
 }
 
@@ -39,23 +39,14 @@ if (time <= 11) {
 
 }
      
-document.write(message);
+document.write(askTime);
 
 }
 
 
 function randomFact() {
 
-    let question1 = prompt("What is your favourite cat");
-    let A = "Persian";
-    let B = "Bengal";
-    let C = "Siamese";
-    console.log(question1);
- 
- }
- 
-randomFact();
-let question1 = prompt("What is your favourite cat");
+let question1 = prompt("What is your favourite cat: Persian Cat, Bengal Cat, or Siamese Cat");
 let fact = "";
 let A = "Persian";
 let B = "Bengal";
@@ -73,7 +64,8 @@ if (question1 = A) {
 }
 
      
-console.log(fact);
+document.write(randomFact);
+
 
 //     console.log("hey");
 //         function greet () {
