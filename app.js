@@ -1,28 +1,8 @@
-//Requirements
-//Add at least 3 dynamic components to your web page. These can be based on user input, or other dynamic input data.
-
-//At least one dynamic component should be based on user input.
-
-//At least one dynamic component should use a conditional statement to determine the output.
-
-//Stretch Goals
-//Try out the confirm() function, in addition to prompt(). When’s the right time to use this?
-
-//If the user gives you a color, can you set a part of your page to be that color?
-
-
-
-//try confirm()
-//user gives a colour, set a part of your page to that colour
-
-
 function getName() {
    let username = prompt("What is your name?")
    document.write("Hello " + username);
 
 }
-
-
 
 function askTime() {
     let time = prompt("What is the hour? (0-23)");
@@ -42,7 +22,6 @@ if (time <= 11) {
 document.write(message);
 
 }
-
 
 function randomFact() {
 
@@ -69,15 +48,6 @@ document.write(fact);
 
 
 
-
-//     console.log("hey");
-//         function greet () {
-    //        let username = prompt("what is your name");
-//            document.write("Hello " + username);
-//        }
-
-//html <script>greet();</script>
-//code read from top to bottom
 
 
 
