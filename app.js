@@ -49,7 +49,26 @@ document.write(fact);
 function getRating () {
     let rating = prompt('What rating would you give your favourite cat between 1-5 ', '5');
 
+    //check they input a number between 1-5
+    while (!(rating > 0 && rating <= 5)){
+        rating = prompt("Please enter a number 5 or lower!")
+        
+    }
 
+   /* or
+while (rating < 0 || rating => 5){
+        rating = prompt("Please enter a number 5 or lower!")
+        
+    }
+    - negative number or greater than 5
+
+    // ! = not - outside the whole TRUE bracket - like algebra
+    //check they are not putting a negative (>0)
+    // && = and - when you want both conditions to be true
+    // || = or - want one condition to be true
+    //You use AND for example when you want to check if someone is logged in AND they are , let's say, above 18 so they can buy a lottery ticket.
+//You use OR when you want to see if a user wants to select red OR blue for their shoes.
+*/
     for (let counter = 0; counter < rating; counter++) {
         document.write("<img src='cat1.jpg' class='loops-image'/>")
 
@@ -59,8 +78,9 @@ function getRating () {
 
 //how could you use functions to make your code more readable
 
-
-
+//do - wrong - guess again 
+//use for or while loop
+// use while loop in askRating
 
  
 
