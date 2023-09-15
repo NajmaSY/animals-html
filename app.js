@@ -46,8 +46,12 @@ document.write(fact);
 
 }
 
-
-
+/* lab 8
+show an image repeated within your page
+prompt user with question for a number e.g. how many cats do you want?
+or e.g. what star rating would you give, 1-5?
+use a loop to show image that many time
+how could you use functions to make your code more readable*/
 
 
 
