@@ -32,11 +32,11 @@ let B = "Bengal";
 let C = "Siamese";
 
 if (question1 = A) {
-    fact = "A healthy Persian cat's lifespan can be around 8 to 11 years. ";
+    fact = "Interesting Fact: A healthy Persian cat's lifespan can be around 8 to 11 years. ";
 }else if (question1 = B){
-    fact = "They are extremely intelligent, alert, friendly, curious and active";
+    fact = "Interesting Fact: They are extremely intelligent, alert, friendly, curious and active";
 }else if (question1 = C){
-    fact = "As one of the most affectionate and social breeds of cat";
+    fact = "Interesting Fact: They are one of the most affectionate and social breeds of cat";
 
 }else {
     fact = "Choose one of the three";
@@ -58,4 +58,33 @@ how could you use functions to make your code more readable*/
 
 
 
+function getRating () {
+    let rating = prompt('What rating would you give your favourite cat between 1-5 ', '5');
+}
+
+    for (let counter = 0; i < rating; counter++) {
+        document.write("<img src='cat1.jpg'/>")
+}
+
+
+//set initial value of a counter
+
+//condition for counter to meet
+
+
+    // <= until it gets to 20
+    //++ = add 1 each time - counter is now 1 for now
+    // or counter = counter + 1 where <=
+    // output text 21 times - <=20
+    // <20 - 20 times
+    //e.g. list of email address/names/etc... - use for loop
+
+//ask user for rating of website
+
+//dont forget script getRating() in html
+     
+     
+//i = iterator
+// i - can be anything
+// outputs 3 stars because <=
 
