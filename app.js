@@ -46,45 +46,21 @@ document.write(fact);
 
 }
 
-/* lab 8
-show an image repeated within your page
-prompt user with question for a number e.g. how many cats do you want?
-or e.g. what star rating would you give, 1-5?
-use a loop to show image that many time
-how could you use functions to make your code more readable*/
-
-
-
-
-
-
 function getRating () {
     let rating = prompt('What rating would you give your favourite cat between 1-5 ', '5');
+
+
+    for (let counter = 0; counter < rating; counter++) {
+        document.write("<img src='cat1.jpg' class='loops-image'/>")
+
 }
 
-    for (let counter = 0; i < rating; counter++) {
-        document.write("<img src='cat1.jpg'/>")
 }
 
-
-//set initial value of a counter
-
-//condition for counter to meet
+//how could you use functions to make your code more readable
 
 
-    // <= until it gets to 20
-    //++ = add 1 each time - counter is now 1 for now
-    // or counter = counter + 1 where <=
-    // output text 21 times - <=20
-    // <20 - 20 times
-    //e.g. list of email address/names/etc... - use for loop
 
-//ask user for rating of website
 
-//dont forget script getRating() in html
-     
-     
-//i = iterator
-// i - can be anything
-// outputs 3 stars because <=
+ 
 
